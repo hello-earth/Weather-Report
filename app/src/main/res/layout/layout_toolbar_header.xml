@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#4876FF" >
+
+        <!--自定义控件-->
+        <ImageView
+            android:id="@+id/icon_nagivitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/toolbar_city_home" />
+
+        <View
+            android:id="@+id/split_view"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#333"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>
